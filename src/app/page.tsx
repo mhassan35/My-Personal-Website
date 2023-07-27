@@ -1,10 +1,9 @@
+import NavBarPage from "@/Components/NavBer/NavBar-For-Pc";
 
 export default function Home() {
   return (
    <div>
-    <h1>
-      Hassan
-    </h1>
+    <NavBarPage />
     </div>
   )
 }
