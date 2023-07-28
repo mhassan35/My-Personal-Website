@@ -9,6 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+       fontFamily:{
+      oswald: "Oswald, sans-serif",
+      urbanist: "Urbanist, sans-seri",  
+    },
+
+
+
     extend: {},
   },
   plugins: [],
