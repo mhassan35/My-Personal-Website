@@ -38,15 +38,10 @@ img{
   margin-bottom: 15px;
 }
 .layer p{
-  color: darkcyan;
+  color: yellow;
   font-size: 1rem;
   line-height: 1.8;
 }
-/* .row:hover img{
-  transform: scale(1.1);
-  /* transition-duration: 700ms; */
-  /* transition-timing-function: ease-in-out; */
-/* } */
 .row:hover .layer{
   height: 100%;
 }
@@ -54,4 +49,53 @@ img{
 
 
 
+.word {
+  color: green;
+  transition: color 0.5s ease-in-out;
+}
 
+.word:nth-child(1) {
+  animation: colorchange 3s ease-in-out 0s infinite alternate;
+}
+
+.word:nth-child(2) {
+  animation: colorchange 3s ease-in-out 0.25s infinite alternate;
+}
+
+.word:nth-child(3) {
+  animation: colorchange 3s ease-in-out 1s infinite alternate;
+}
+
+.word:nth-child(4) {
+  animation: colorchange 3s ease-in-out 1.5s infinite alternate;
+}
+
+.word:nth-child(5) {
+  animation: colorchange 3s ease-in-out 2s infinite alternate;
+}
+
+
+@keyframes colorchange {
+  0% {
+    color: #fb0707;
+  }
+  50% {
+    color: #56270d;
+  }
+  100% {
+    color:  #ffffff;
+  }
+}
+
+
+
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}

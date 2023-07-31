@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Typed from 'typed.js';
+import BackgroundPage from '../Background/BackgroundPage';
 
 
 
@@ -33,8 +34,9 @@ const HomePage = () => {
 
 
     return (
-    <div className='w-full font-oswald pt-44 text-center ' >
-        <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center ' ><div>
+      <div className='w-full  relative font-oswald pt-48 text-center'>
+          <div className='absolute top-0 left-0 right-0 bottom-0'><BackgroundPage /></div>
+          <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center ' ><div>
        
         <div className='py-2 font-bold font-urbanist text-3xl md:text-5xl text-gray-500'>
         Hi! I am <span className='text-blue-600'>M Hassan</span>
@@ -65,10 +67,8 @@ const HomePage = () => {
          </div>
             </div>
         </div>
-
     </div>
-
-  )
+      )
 }
 
 export default HomePage

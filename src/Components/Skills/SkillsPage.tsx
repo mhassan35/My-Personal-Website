@@ -11,17 +11,11 @@ import AngulerImg from'@/Components/Assets/Images/anguler.png'
 const SkillsPage = () => {
 
   return (
-    <div className=' w-full pt-60 px-4 ' id='skills' >
+    <div className=' w-full pt-60 px-4'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full ' >
-        <p className=' text-3xl  text-blue-500 ' >Skills</p>
-        <p className=' text-2xl py-2  text-gray-400 ' >
-          <span className='word' >Advanced </span>
-          <span className='word' >tech </span>
-          <span className='word' >for </span> 
-          <span className='word' >web </span> 
-          <span className='word' >& </span>
-          <span className='word' >app </span>
-          <span className='word'>div</span></p>
+        <h1 className=' text-3xl text-blue-500'>Skills</h1>
+        <p className=' text-2xl py-2 text-gray-400'>
+          Advanced tech for web & app div </p>
         <div className=' py-2 grid md:grid-cols-2 lg:grid-cols-4 gap-8 ' >
 
 
