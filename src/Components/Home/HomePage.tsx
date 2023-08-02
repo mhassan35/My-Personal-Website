@@ -11,6 +11,7 @@ import BackgroundPage from '../Background/BackgroundPage';
 
 const HomePage = () => {
 
+
     const typedRef = useRef(null);
 
     useEffect(() => {
@@ -43,10 +44,12 @@ const HomePage = () => {
       </div>
             <p className='text-2xl py-2 text-green-700 ' >
            <span ref={typedRef}></span>
-         </p><span>
+         </p>
+         <div>
          <p className='py-4 max-w-[70%] m-auto md:mx-48 '>
          My Name Is Muhammad-Hassan I am a Front-End-Developer,Youtuber,Graphic Designer
-         </p></span>
+         </p>
+         </div>
          <div title='Linkedin Account' className='flex items-center justify-between max-w-[330px] m-auto py-4 ' >
             <div className=' rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 '>
             <FaLinkedin  />

@@ -5,6 +5,7 @@ import SkillsPage from "@/Components/Skills/SkillsPage"
 import ExperiencePage from "@/Components/Experience/ExperiencePage"
 import ContactPage from "@/Components/form_validate/ContactPage"
 import ScrollTopBtn from "@/Components/ScrollTop/ScrollBar"
+import Footer from "@/Components/Footer/footer"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <ExperiencePage />
     <ContactPage />
     <ScrollTopBtn />
+    <Footer />
     </div>
   )
 }
