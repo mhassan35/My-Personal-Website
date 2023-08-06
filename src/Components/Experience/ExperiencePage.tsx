@@ -7,6 +7,7 @@ import moringa from '@/Components/Assets/Images/moringa-powder.png'
 import Webone from '@/Components/Assets/Images/pic-1.png'
 import weatherApp from '@/Components/Assets/Images/weather-app.png'
 import Working from '@/Components/Assets/Images/pic-0.png'
+import searchApp from '@/Components/Assets/Images/New-Photo Search-App.png'
 import sideBar from '@/Components/Assets/Images/SideBar.png'
 import Webfour from '@/Components/Assets/Images/pic-4.png'
 import Fiveweb from '@/Components/Assets/Images/pic-5.png'
@@ -90,6 +91,25 @@ const ExperiencePage = () => {
                   </button>
                   </Link>
                   <Link href='https://github.com/M-Hassan1/Form-Validation' target="_blank">
+                  <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
+                    Code
+                  </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className='row'>
+            <Image src={searchApp} alt='MyImage' />
+              <div className='layer'>
+                <h5> Search your favorites photos </h5>
+                <p>All photo available beautiful and full hd images</p>
+                <div className='flex flex-row gap-4' >
+                <Link href='https://photo-search-app-murex.vercel.app' target="_blank">
+                  <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
+                    Demo
+                  </button>
+                  </Link>
+                  <Link href='https://github.com/M-Hassan1/Photo-Search-App' target="_blank">
                   <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
                     Code
                   </button>
