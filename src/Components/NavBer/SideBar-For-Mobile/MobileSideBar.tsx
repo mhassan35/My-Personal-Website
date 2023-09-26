@@ -19,7 +19,7 @@ type MobileSideBarProps = {
 
 const MobileSideBar: React.FC<MobileSideBarProps> = ({ showDesktopMenu, setShowDesktopMenu, setMobileMenu }) => {
   return (
-    <ul className='flex flex-col absolute top-[50px] left-0 w-full h-[calc(100vh-50px)] bg-white md:hidden font-bold border-t text-black' >
+    <ul className='flex flex-col absolute top-[50px] left-0 w-full h-[calc(100vh-50px)] bg-white md:hidden font-bold text-black' >
       {data.map((item) =>{
         return (
           <li key={item.id} className='py-4 px-5 border-b'>
