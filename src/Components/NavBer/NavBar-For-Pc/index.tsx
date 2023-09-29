@@ -57,7 +57,7 @@ const NavBarPage = () => {
           setMobileMenu={setMobileMenu}
          />)}
               {/* For Mobile Start Coding Here */}
-            <div className='w-8 md:hidden md:w-12 h-8 md:h-12 relative rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer -mr-2 ' >
+            <div className='w-7 md:hidden md:w-12 h-8 md:h-12 relative rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer -mr-2 ' >
               { MobileMenu ? (
                 <VscChromeClose className='text-[16px]'
                 onClick={ () => setMobileMenu(false)} />
