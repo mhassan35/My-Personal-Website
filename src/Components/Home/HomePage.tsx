@@ -17,7 +17,7 @@ const HomePage = () => {
     useEffect(() => {
         if (typedRef.current) {
           const typed = new Typed(typedRef.current, {
-            strings: ['Front-End-Developer', 'Youtuber', 'Graphic Designer'],
+            strings: [ 'I Am A', 'Front-End-Developer', 'Youtuber', 'Graphic Designer'],
             typeSpeed: 150,
             backSpeed: 100,
             backDelay: 100,
