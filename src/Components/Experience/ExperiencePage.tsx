@@ -29,7 +29,7 @@ const ExperiencePage = () => {
                 <h5>E-Commerce Websites</h5>
                 <p>Complete and responsive E-commerce website using Advance framework</p>
                 <div className='flex flex-row gap-4' >
-                <Link href='https://e-commerce-web-five-beta.vercel.app' target="_blank" >
+                <Link href='https://e-commerce-web-five-beta.vercel.app/' target="_blank" >
                   <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
                     Demo
                   </button>
