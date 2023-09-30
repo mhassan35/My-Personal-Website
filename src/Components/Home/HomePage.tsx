@@ -47,7 +47,7 @@ const HomePage = () => {
             </div>
             
             <div className='flex items-center justify-center space-x-5 md:space-x-6 py-4'>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/muhammad-hassan-86b302293" >
               <div
                 title='Linkedin Account'
                 className='rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.4)] shadow-gray-300 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300'
@@ -55,7 +55,7 @@ const HomePage = () => {
                 <FaLinkedin className="text-white"/>
               </div>
               </Link>
-              <Link href="/">
+              <Link href="https://github.com/M-Hassan1">
               <div
                 title='Github Account'
                 className='rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)] shadow-gray-300 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300'
@@ -63,7 +63,7 @@ const HomePage = () => {
                 <FaGithub className="text-white" />
               </div>
               </Link>
-              <Link href="/">
+              <Link href="https://www.youtube.com/channel/UCok9epwf7EcKPV_eX1_-oNg">
                 <div
                 title='Send Massage On Gmail'
                 className='rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)] shadow-gray-300 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 '
@@ -71,7 +71,7 @@ const HomePage = () => {
                 <BsYoutube className="text-white" />
               </div>
               </Link>
-              <Link href="/">
+              <Link href="https://www.facebook.com/profile.php?id=100084384853396">
               <div
                 title='Personal Link'
                 className='rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)] shadow-gray-300 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300'

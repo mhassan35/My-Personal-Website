@@ -1,11 +1,11 @@
 import NavBarPage from "@/Components/NavBer/NavBar-For-Pc"
 import HomePage from "@/Components/Home/HomePage"
 import AboutPage from "@/Components/About/aboutPage"
-import SkillsPage from "@/Components/Skills/SkillsPage"
 import ExperiencePage from "@/Components/Experience/ExperiencePage"
 import ContactPage from "@/Components/form_validate/ContactPage"
 import ScrollTopBtn from "@/Components/ScrollTop/ScrollBar"
 import Footer from "@/Components/Footer/footer"
+import SkillsCode from "@/Components/Skills/SkillsTop"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
     <NavBarPage />
     <HomePage />
     <AboutPage />
-    <SkillsPage />
+    <SkillsCode />
     <ExperiencePage />
     <ContactPage />
     <ScrollTopBtn />
