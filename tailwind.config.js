@@ -4,14 +4,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-       fontFamily:{
+    fontFamily: {
       oswald: "Oswald, sans-serif",
-      urbanist: "Urbanist, sans-seri",  
+      urbanist: "Urbanist, sans-serif",
     },
     extend: {
       animation: {
@@ -29,7 +27,27 @@ module.exports = {
             transform: "translate(-20px, 20px) scale(0.9)",
           },
           "100%": {
-            transform: "tranlate(0px, 0px) scale(1)",
+            transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+      },
+      backgroundImage: {
+        'gradient': 'linear-gradient(to right, #8f94fb, #4e54c8)',
+      },
+      animation: {
+        'rotate-bottom-25': 'animate 25s linear infinite',
+      },
+      keyframes: {
+        animate: {
+          '0%': {
+            transform: 'translateY(0) rotate(0deg)',
+            opacity: '1',
+            borderRadius: '0',
+          },
+          '100%': {
+            transform: 'translateY(-1000px) rotate(720deg)',
+            opacity: '0',
+            borderRadius: '50%',
           },
         },
       },
