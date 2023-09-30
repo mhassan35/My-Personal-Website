@@ -181,12 +181,12 @@ const ExperiencePage = () => {
                 <h5>Weather-App</h5>
                 <p>Beautiful Weather-App Using Html, Css And JavaScript</p>
                 <div className='flex flex-row gap-4' >
-                <Link href='https://weather.hassanali137.repl.co' target="_blank">
+                <Link href='https://landing-page-beta-kohl.vercel.app' target="_blank">
                   <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
                     Demo
                   </button>
                   </Link>
-                  <Link href='https://replit.com/@HassanAli137/weather' target="_blank">
+                  <Link href='https://github.com/M-Hassan1/Landing-Page' target="_blank">
                   <button className='bg-blue-500 hover:bg-blue-400 p-2 rounded-md'>
                     Code
                   </button>
