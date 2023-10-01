@@ -6,9 +6,10 @@ import emailjs from '@emailjs/browser';
 import Message from './Message';
 import contactImg from '@/Components/Assets/Images/photo-1607706189992-eae578626c86.avif'
 import Image from 'next/image';
-import { AiOutlineMail  } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { SiUpwork  } from 'react-icons/si';
+import { TbBrandFiverr } from 'react-icons/Tb';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link';
 
 // npm install @emailjs/browser
 
@@ -87,16 +88,27 @@ const ContactPage = () => {
             <div>
                 <p className='uppercase pt-8 ' >Contact Me</p>
                 <div className=' flex items-center justify-between py-4 ' >
+              <Link href="https://www.fiverr.com" target="_blank" >
               <div className=' rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 ' title='Contact With Linkedin' >
-              <FaLinkedin /></div>
-                
-            <div className=' rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 ' title='Contact With GitHub' >
-            <FaGithub  /></div> 
+              <TbBrandFiverr />
+              </div>
+              </Link>
 
+                <Link href="https://www.upwork.com" target="_blank" >
+            <div className='rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 ' title='Contact With GitHub' >
+            <SiUpwork  />
+            </div>
+            </Link> 
+            <Link href="https://www.linkedin.com/in/muhammad-hassan-86b302293" target="_blank">
             <div className=' rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300 ' title='Send Massage On Gmail' >
-            <AiOutlineMail /></div>
+            <FaLinkedin />
+              </div>
+            </Link>
+            <Link href="https://github.com/M-Hassan1" target="_blank" >
             <div className=' rounded-full shadow-[0px_1px_1px_2px_rgba(0,0,0,0.3)]  shadow-gray-400 p-4 cursor-pointer hover:scale-[1.2] ease-in duration-300  ' title='Contact Link' >
-            <BsFillPersonLinesFill /></div>
+            <FaGithub />
+              </div>
+            </Link>
             </div>
         </div>
         </div>

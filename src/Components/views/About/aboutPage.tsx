@@ -7,11 +7,17 @@ const AboutPage = () => {
       <div id='about' />
         <div className='max-w-[1240px] m-auto  md:grid grid-cols-2 gap-8 ' >
             <div className='cols-span-2 ' >
-                <p className='uppercase text-3xl tracking-widest text-blue-500 ' >ABout Me!</p>
-                <h2 className=' py-4  ' >Introduction</h2>
-                <p className='py-2 ' >  My Name Is Muhammad-Hassan i am a Student of National University of Sciences and Technology (NUST) Islamabad.I am a WEB-DEvELOPER,Youtuber,Graphic Designer</p>
-                <p className=' py-2 ' > My Name Is Muhammad-Hassan i am a Student of National University of Sciences and Technology (NUST) Islamabad.I am a WEB-DEvELOPER, Youtuber, Graphic Designer</p>
-                
+                <p className='uppercase text-3xl tracking-widest text-blue-500 font-semibold'>
+                  <u>
+                    About Me!
+                    </u>
+                    </p>
+                <h1 className=' py-4 font-bold'>Introduction</h1>
+                <p className='py-2'>My Name is <mark>Muhammad-Hassan</mark>. I Live in Bahawalpur, Punjab, Pakistan. I am a FullStack Web developer (Web 2.0).I am interested in building beautiful web applications with a focus on creating clean and SEO-friendly websites. My goal is to employ advanced technology and innovative design principles to achieve this.</p>
+                <h1 className='font-bold'>
+                  Education
+                </h1>
+                <p className='pt-4' >I am a student of Government College Bahawalpur.</p>
             </div>
             <div className=' w-full h-auto m-auto shadow-[0px_7px_25px_-6px_rgba(0,0,0,0.3)] shadow-gray-400 rounded-xl flex items-center justify-center  p-2 hover:scale-105 ease-in duration-300 '  >
             <Image className=' rounded-xl' src={ResponsiveImg} alt='Logo' width={300} height={100} />

@@ -5,9 +5,9 @@ import Link from 'next/link'
 
 const data = [
   {id: 1, name: "Home", url: "/"},
-  { id: 2, name: "About", url: "/about" }, // Update the URL to "/about"
-  {id: 3, name: "Skills", url: "/"},
-  {id: 4, name: "Experience", url: "/"},
+  {id: 2, name: "Skills", url: "/" }, // Update the URL to "/about"
+  {id: 3, name: "Experience", url: "/"},
+  {id: 4, name: "About", url: "/"},
   {id: 5, name: "Contect", url: "/"},
 ];
 
