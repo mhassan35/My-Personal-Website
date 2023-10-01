@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { BsYoutube ,BsFacebook } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Typed from 'typed.js';
-import BackgroundPage from '../Background/BackgroundPage';
+import BackgroundPage from '@/Components/shared/Background/BackgroundPage';
 import Link from 'next/link';
 
 const HomePage = () => {
