@@ -7,7 +7,7 @@ import Message from './Message';
 import contactImg from '@/Components/Assets/Images/photo-1607706189992-eae578626c86.avif'
 import Image from 'next/image';
 import { SiUpwork  } from 'react-icons/si';
-import { TbBrandFiverr } from 'react-icons/Tb';
+import { TbBrandFiverr } from 'react-icons/tb';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
 

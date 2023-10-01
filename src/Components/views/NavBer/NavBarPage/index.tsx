@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { BiMenuAltRight } from 'react-icons/bi';
@@ -15,7 +15,7 @@ const NavBarPage = () => {
   const [show, setShow] = useState('translate-y-0');
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const controlNavBar = () => {
+  const controlNavBar = useCallback(() => {
     const scrollY = window.scrollY;
 
     if (scrollY > 200) {
@@ -29,15 +29,16 @@ const NavBarPage = () => {
     }
 
     setLastScrollY(scrollY);
-  };
+  }, [lastScrollY, isMobileMenuOpen]);
 
   useEffect(() => {
     window.addEventListener('scroll', controlNavBar);
     return () => {
       window.removeEventListener('scroll', controlNavBar);
     };
-  }, [lastScrollY]);
+  }, [controlNavBar]);
 
+  
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
