@@ -3,17 +3,14 @@ import React from 'react'
 import ResponsiveImg from'@/Components/Assets/Images/downloading.svg'
 const AboutPage = () => {
   return (
-    <div className=' w-full px-4 pt-60 flex items-center ' >
-      <div id='about' />
-        <div className='max-w-[1240px] m-auto  md:grid grid-cols-2 gap-8 ' >
-            <div className='cols-span-2 ' >
-                <p className='uppercase text-3xl tracking-widest text-blue-500 font-semibold'>
-                  <u>
+    <div id='About' className='w-full px-4 pt-20 flex items-center'>
+        <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-8'>
+            <div className='cols-span-2'>
+                <p className='text-3xl tracking-widest text-blue-500 font-semibold'>
                     About Me!
-                    </u>
                     </p>
                 <h1 className=' py-4 font-bold'>Introduction</h1>
-                <p className='py-2'>My Name is <mark>Muhammad-Hassan</mark>. I Live in Bahawalpur, Punjab, Pakistan. I am a FullStack Web developer (Web 2.0).I am interested in building beautiful web applications with a focus on creating clean and SEO-friendly websites. My goal is to employ advanced technology and innovative design principles to achieve this.</p>
+                <p className='py-2'>My Name is <mark>Muhammad-Hassan</mark>. I Live in Bahawalpur, Punjab, Pakistan. I am a FullStack Web developer (Web 3.0).I am interested in building beautiful web applications with a focus on creating clean and SEO-friendly websites. My goal is to employ advanced technology and innovative design principles to achieve this.</p>
                 <h1 className='font-bold'>
                   Education
                 </h1>

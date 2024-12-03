@@ -44,7 +44,7 @@ const NavBarPage = () => {
   };
 
   return (
-    <div className={`w-full h-[50px] md:h-[80px] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 backdrop-blur-lg bg-gray-300 bg-opacity-50 ${show} `}>
+    <div className={`w-full h-[50px] md:h-[80px] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 backdrop-blur-lg bg-gray-200 ${show} `}>
       <Wrapper className='h-[60px] flex justify-between items-center'>
         <Link href='/'>
           <Image src={Logophoto} alt='LOGO' className='w-[100px] md:w-[200px]' />

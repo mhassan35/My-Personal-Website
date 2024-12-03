@@ -16,12 +16,14 @@ import portfolio from '@/Components/Assets/Images/portfolio website.png'
 
 const ExperiencePage = () => {
   return (
-    <div className='project' >
-      <div className='pt-60'>
-        <h1 className='p-4 text-4xl text-[#3C82F6] '>Experience</h1>
-        <h2 className='p-4 text-2xl text-gray-500 leading-none'>
-          The latest project I have created
+    <div id='Experience'>
+      <div className='pt-20'>
+        <div className='p-4' >
+          <h1 className='font-oswald py-2 font-700 text-2xl md:text-4xl text-[#3C82F6]'>Experience</h1>
+          <h2 className='text-gray-500 text-xl md:text-2xl'>
+            The latest project I have created
           </h2>
+        </div>
           <div className='p-4 grid gap-8 lg:grid-cols-2 md:grid-cols-2'>
             <div className='row'>
             <Image src={website} alt='MyImage' /> 

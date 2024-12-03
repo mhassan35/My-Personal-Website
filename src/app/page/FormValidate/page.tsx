@@ -65,13 +65,13 @@ const ContactPage = () => {
   
 
     return (
-    <div id='conatctpege' className='w-full pt-60 px-4 '  >
-      <div className='max-w-[1240px] m-auto  py-16 w-full ' >
-        <h1 className='uppercase text-3xl tracking-widest text-blue-500'>
+    <div id='Contact' className='w-full pt-20 px-4 '  >
+      <div className='max-w-[1240px] m-auto py-16 w-full ' >
+        <h1 className='text-center py-2 font-oswald font-700 text-2xl md:text-4xl text-blue-500'>
           Contact Me
         </h1>
-        <p className='py-4 font-normal text-2xl'>
-            if You Want To Contact Me Put Some Info
+        <p className='text-center font-normal text-2xl'>
+            If you want to contact me put some info
         </p>
         <div className='grid lg:grid-cols-5 gap-8'>
         {/* Left */}

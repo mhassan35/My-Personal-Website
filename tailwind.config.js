@@ -10,10 +10,20 @@ module.exports = {
     fontFamily: {
       oswald: "Oswald, sans-serif",
       urbanist: "Urbanist, sans-serif",
+      roboto: ['"Roboto"', 'sans-serif'], 
     },
     extend: {
+      fontWeight: {
+        100: 100,
+        300: 300, 
+        400: 400,
+        500: 500,
+        700: 700,
+        900: 900,
+      },
       animation: {
         blob: "blob 7s infinite",
+        'rotate-bottom-25': 'animate 25s linear infinite',
       },
       keyframes: {
         blob: {
@@ -30,14 +40,6 @@ module.exports = {
             transform: "translate(0px, 0px) scale(1)",
           },
         },
-      },
-      backgroundImage: {
-        'gradient': 'linear-gradient(to right, #8f94fb, #4e54c8)',
-      },
-      animation: {
-        'rotate-bottom-25': 'animate 25s linear infinite',
-      },
-      keyframes: {
         animate: {
           '0%': {
             transform: 'translateY(0) rotate(0deg)',
@@ -50,6 +52,9 @@ module.exports = {
             borderRadius: '50%',
           },
         },
+      },
+      backgroundImage: {
+        'gradient': 'linear-gradient(to right, #8f94fb, #4e54c8)',
       },
     },
   },

@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillCard from './SkillCard'; // Adjust the path as needed
+import SkillCard from './SkillCard';
 
 import HtmlImg from'@/Components/Assets/Images/html.png'
 import CssImg from'@/Components/Assets/Images/CSS3_logo_and_wordmark.svg.png'
@@ -9,11 +9,9 @@ import TypescriptImg from'@/Components/Assets/Images/Typescript_logo_2020.svg.pn
 import Chakraui from "@/Components/Assets/Images/Chakraui.png";
 import ReactImg from'@/Components/Assets/Images/1631110818-logo-react-js.png'
 import NextImg from'@/Components/Assets/Images/download.png'
-import AngulerImg from'@/Components/Assets/Images/anguler.png'
-import MaterialLogo from "@/Components/Assets/Images/MaterialLogo.png";
 import Promotion from "@/Components/Assets/Images/promotion.png";
 import AvailableOn from "@/Components/Assets/Images/UpworkOrFiverr.png";
-import SkillsPage from './SkillsPage';
+import SkillsPage from './SkillPage';
 
 const SkillsCode = () => {
   const skills = [
@@ -58,16 +56,6 @@ const SkillsCode = () => {
       title: 'Next JS',
     },
     {
-      imgSrc: AngulerImg,
-      altText: 'Anguler',
-      title: 'Anguler',
-    },
-    {
-      imgSrc: MaterialLogo,
-      altText: 'Material',
-      title: 'Material UI',
-    },
-    {
       imgSrc: Promotion,
       altText: 'Promotion Logo',
       title: 'All Social Media Promotion',
@@ -80,14 +68,14 @@ const SkillsCode = () => {
   ];
 
   return (
-    <>
+    <div id='Skills'>
     <SkillsPage />
     <div className='p-3 grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
       {skills.map((skill, index) => (
         <SkillCard key={index} {...skill} />
       ))}
     </div>
-    </>
+    </div>
   );
 };
 
