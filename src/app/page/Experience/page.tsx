@@ -22,7 +22,7 @@ const ExperiencePage = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="font-oswald text-4xl font-semibold text-indigo-600">Experience</h1>
-          <h2 className="text-xl text-gray-500 mt-2">The latest projects I've created</h2>
+          <h2 className="text-xl text-gray-500 mt-2">The latest projects I have created</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Project 1 */}
