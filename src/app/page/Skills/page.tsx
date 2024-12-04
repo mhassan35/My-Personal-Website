@@ -6,6 +6,7 @@ import CssImg from'@/Components/Assets/Images/CSS3_logo_and_wordmark.svg.png'
 import TailwindLogo from "@/Components/Assets/Images/TailwindLogo.png";
 import JavascriptImg from'@/Components/Assets/Images/javascript.png'
 import TypescriptImg from'@/Components/Assets/Images/Typescript_logo_2020.svg.png'
+import PythonImg from'@/Components/Assets/Images/python.png'
 import Chakraui from "@/Components/Assets/Images/Chakraui.png";
 import ReactImg from'@/Components/Assets/Images/1631110818-logo-react-js.png'
 import NextImg from'@/Components/Assets/Images/download.png'
@@ -39,6 +40,11 @@ const SkillsCode = () => {
       imgSrc: TypescriptImg,
       altText: 'TypeScript',
       title: 'TypeScript',
+    },
+    {
+      imgSrc: PythonImg,
+      altText: 'Python',
+      title: 'Python',
     },
     {
       imgSrc: Chakraui,

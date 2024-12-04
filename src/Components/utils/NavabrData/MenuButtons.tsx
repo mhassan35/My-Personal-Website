@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -20,7 +21,7 @@ const MenuButtons: React.FC<MenuButtonsProps> = ({ showDesktopMenu, setShowDeskt
   <ul className='hidden md:flex items-center gap-8 text-black'>
   {data.map((item) => {
     return (
-      <li className='cursor-pointer' key={item.id}>
+      <li className='cursor-pointer font-roboto text-lg font-[400]' key={item.id}>
         {item.scrollTo ? (
           <ScrollLink 
             to={item.scrollTo}
@@ -31,7 +32,7 @@ const MenuButtons: React.FC<MenuButtonsProps> = ({ showDesktopMenu, setShowDeskt
             {item.name}
           </ScrollLink>
         ) : (
-          <a href={item.url}>{item.name}</a>
+          <Link href="/">{item.name}</Link>
         )}
       </li>
     );

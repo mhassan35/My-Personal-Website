@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+	background-color: whitesmoke;
+}
+
 .row{
   position: relative;
   overflow: hidden;
@@ -193,7 +198,7 @@ img{
 	list-style: none;
 	width: 20px;
 	height: 20px;
-	background: rgba(179, 22, 22, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 	animation: animate 25s linear infinite;
 	bottom: -150px;
 }

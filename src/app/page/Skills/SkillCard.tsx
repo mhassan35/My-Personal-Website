@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const SkillCard = ({ imgSrc, altText, title }: any) => {
   return (
     <div className='p-8 shadow-[0px_3px_3px_4px_rgba(130,100,120,0.3)] hover:scale-105 ease-in duration-300'>

@@ -1,14 +1,16 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
+import { Link as ScrollLink } from 'react-scroll';
+
 
 
 const data = [
-  {id: 1, name: "Home", url: "/"},
-  {id: 2, name: "About", url: "/"},
-  {id: 3, name: "Skills", url: "/"},
-  {id: 4, name: "Experience", url: "/"},
-  {id: 5, name: "Contect", url: "/"},
+  { id: 1, name: "Home", url: "/" },
+  { id: 2, name: "Skills", scrollTo: "Skills" },
+  { id: 3, name: "Experience", scrollTo: "Experience" },
+  { id: 4, name: "About", scrollTo: "About" },
+  { id: 5, name: "Contact", scrollTo: "Contact" },
 ];
 
 type MobileSideBarProps = {
@@ -22,11 +24,20 @@ const MobileSideBar: React.FC<MobileSideBarProps> = ({ showDesktopMenu, setShowD
     <ul className='flex flex-col absolute top-[50px] left-0 w-full h-[calc(100vh-50px)] bg-white md:hidden font-bold text-black' >
       {data.map((item) =>{
         return (
-          <li key={item.id} className='py-4 px-5 border-b'>
-            <Link href={item.url} onClick={() => setMobileMenu(false)} >
+          <li className='py-4 px-5' key={item.id}>
+          {item.scrollTo ? (
+            <ScrollLink 
+              to={item.scrollTo}
+              smooth={true}
+              duration={500}
+              offset={50}
+            >
               {item.name}
-            </Link>
-          </li>
+            </ScrollLink>
+          ) : (
+            <Link href="Home">{item.name}</Link>
+          )}
+        </li>
         )
       })}
     </ul>
