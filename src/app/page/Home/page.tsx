@@ -10,7 +10,7 @@ const HomePage = () => {
       <div id='Home' className='absolute top-0 left-0 right-0 bottom-0'>
         <BackgroundPage />
       </div>
-      <div className='w-full h-screen relative text-left'>
+      <div className='w-full h-screen relative pt-10 text-left'>
         <div className='max-w-screen-xl pb-20 w-full h-full mx-auto p-4 flex flex-col justify-center items-center'>
           <div>
             <div className='py-2'>
