@@ -44,7 +44,7 @@ const NavBarPage = () => {
   return (
     <div className={`w-full h-[50px] md:h-[80px] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 backdrop-blur-lg bg-gray-200 ${show} `}>
       <Wrapper className='h-[60px] flex justify-between items-center'>
-      <Link href="/" className="flex text-center items-center justify-center">
+      <Link href="/" className="md:flex hidden text-center items-center justify-center">
         <button className="w-14 h-14 bg-blue-600 text-white sm:text-xl text-3xl lg:text-3xl font-bold rounded-full flex text-center items-center justify-center hover:bg-blue-700 
         transform hover:scale-105 transition-all duration-300 ease-in-out shadow-lg hover:shadow-2xl hover:animate-pulse">M</button>
         <h1 className="pl-2 text-center text-xl font-semibold text-gray-800">
