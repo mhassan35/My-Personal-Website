@@ -1,8 +1,8 @@
-import NavBarPage from '@/Components/views/NavBer/NavBarPage'
+import NavBarPage from '@/Components/Navigation'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Footer from '@/Components/views/Footer/footer'
+import Footer from '@/Components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 

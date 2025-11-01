@@ -3,9 +3,9 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { VscChromeClose } from 'react-icons/vsc';
-import MenuButtons from '../../../utils/NavabrData/MenuButtons';
-import MobileSideBar from '@/Components/views/NavBer/SideBarPage/MobileSideBar';
-import Wrapper from '../../../utils/NavabrData/wrapper';
+import MenuButtons from '../../utils/NavigationData/MenuButtons';
+import MobileSideBar from '@/Components/Navigation/MobileSideBar';
+import Wrapper from '../../utils/NavigationData/wrapper';
 
 const NavBarPage = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);

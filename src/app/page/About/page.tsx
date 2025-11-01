@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import ResponsiveImg from '@/Components/Assets/Images/downloading.svg'
+import ResponsiveImg from '@/Assets/Images/downloading.svg'
 import { Link } from 'react-scroll'
 
 const AboutPage = () => {

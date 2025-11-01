@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { projects } from "@/Components/utils/ExperienceData";
+import { projects } from "@/utils/ExperienceData";
 
 const ExperiencePage = () => {
   return (

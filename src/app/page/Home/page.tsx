@@ -1,16 +1,11 @@
 import { BsYoutube} from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TbBrandFiverr } from "react-icons/tb";
-import BackgroundPage from '@/Components/shared/Background/BackgroundPage';
 import Link from 'next/link';
 
 const HomePage = () => {
   return (
-    <>
-      <div id='Home' className='absolute top-0 left-0 right-0 bottom-0'>
-        <BackgroundPage />
-      </div>
-      <div className='w-full h-screen relative pt-10 text-left'>
+    <div id='Home' className='w-full h-screen relative pt-10 text-left'>
         <div className='max-w-screen-xl pb-20 w-full h-full mx-auto p-4 flex flex-col justify-center items-center'>
           <div>
             <div className='py-2'>
@@ -61,7 +56,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

@@ -1,14 +1,14 @@
-import HtmlImg from '@/Components/Assets/Images/html.png';
-import CssImg from '@/Components/Assets/Images/CSS3_logo_and_wordmark.svg.png';
-import TailwindLogo from '@/Components/Assets/Images/TailwindLogo.png';
-import JavascriptImg from '@/Components/Assets/Images/javascript.png';
-import TypescriptImg from '@/Components/Assets/Images/Typescript_logo_2020.svg.png';
-import PythonImg from '@/Components/Assets/Images/python.png';
-import Chakraui from '@/Components/Assets/Images/Chakraui.png';
-import ReactImg from '@/Components/Assets/Images/1631110818-logo-react-js.png';
-import NextImg from '@/Components/Assets/Images/download.png';
-import Promotion from '@/Components/Assets/Images/promotion.png';
-import AvailableOn from '@/Components/Assets/Images/UpworkOrFiverr.png';
+import HtmlImg from '@/Assets/Images/html.png';
+import CssImg from '@/Assets/Images/CSS3_logo_and_wordmark.svg.png';
+import TailwindLogo from '@/Assets/Images/TailwindLogo.png';
+import JavascriptImg from '@/Assets/Images/javascript.png';
+import TypescriptImg from '@/Assets/Images/Typescript_logo_2020.svg.png';
+import PythonImg from '@/Assets/Images/python.png';
+import Chakraui from '@/Assets/Images/Chakraui.png';
+import ReactImg from '@/Assets/Images/1631110818-logo-react-js.png';
+import NextImg from '@/Assets/Images/download.png';
+import Promotion from '@/Assets/Images/promotion.png';
+import AvailableOn from '@/Assets/Images/UpworkOrFiverr.png';
 
 export const skills = [
   { imgSrc: HtmlImg, altText: 'HTML Logo', title: 'HTML:5' },

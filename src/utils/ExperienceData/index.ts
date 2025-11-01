@@ -1,14 +1,14 @@
-import website from "@/Components/Assets/Images/e-commerce.png";
-import moringa from "@/Components/Assets/Images/moringa-powder.png";
-import Webone from "@/Components/Assets/Images/pic-1.png";
-import weatherApp from "@/Components/Assets/Images/weather-app.png";
-import Working from "@/Components/Assets/Images/pic-0.png";
-import searchApp from "@/Components/Assets/Images/New-Photo Search-App.png";
-import sideBar from "@/Components/Assets/Images/SideBar.png";
-import CarWeb from "@/Components/Assets/Images/Travels Agency.png";
-import Webfour from "@/Components/Assets/Images/pic-4.png";
-import Fiveweb from "@/Components/Assets/Images/pic-5.png";
-import portfolio from "@/Components/Assets/Images/portfolio website.png";
+import website from "@/Assets/Images/e-commerce.png";
+import moringa from "@/Assets/Images/moringa-powder.png";
+import Webone from "@/Assets/Images/pic-1.png";
+import weatherApp from "@/Assets/Images/weather-app.png";
+import Working from "@/Assets/Images/pic-0.png";
+import searchApp from "@/Assets/Images/New-Photo Search-App.png";
+import sideBar from "@/Assets/Images/SideBar.png";
+import CarWeb from "@/Assets/Images/Travels Agency.png";
+import Webfour from "@/Assets/Images/pic-4.png";
+import Fiveweb from "@/Assets/Images/pic-5.png";
+import portfolio from "@/Assets/Images/portfolio website.png";
 
 export const projects = [
   {

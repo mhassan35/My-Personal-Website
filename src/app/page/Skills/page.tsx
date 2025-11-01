@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { skills } from '@/Components/utils/skillsData';
+import { skills } from '@/utils/skillsData';
 
 const Skills = () => {
   return (
