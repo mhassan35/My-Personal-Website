@@ -7,7 +7,7 @@ import { projects } from "@/utils/ExperienceData";
 
 const ExperiencePage = () => {
   return (
-    <div id="Experience" className="bg-gray-100 py-16">
+    <div id="Experience" className="py-16">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="font-oswald text-4xl font-semibold text-indigo-600">

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import ResponsiveImg from '@/Assets/Images/downloading.svg'
 import { Link } from 'react-scroll'
-
+  
 const AboutPage = () => {
   return (
     <div id="About" className="w-full px-6 py-20">

@@ -3,12 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-	background-color: whitesmoke;
-}
-
-.row{
+/* .row{
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -100,8 +95,6 @@ img{
   }
 }
 
-/* design of scrollbar */
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -120,15 +113,6 @@ img{
 }
 
 
-/* .homeSec{
-  background: linear-gradient(350deg, #fff 50%, #13161a		
-  50%); 
-} */
-
-
-
-
-/*Start Animations*/
 @-webkit-keyframes animatetop {
 	from {
 		top: -300px;
@@ -169,12 +153,7 @@ img{
 		opacity: 1;
 	}
 }
-/*End Animations*/
-/*
--- Start BackGround Animation 
-*/
 .area {
-	/* background: #4e54c8; */
 	background: whitesmoke;
 	width: 100%;
 	height: 100vh;
@@ -290,4 +269,4 @@ img{
 		opacity: 0;
 		border-radius: 50%;
 	}
-}
+} */

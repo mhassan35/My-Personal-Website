@@ -14,7 +14,7 @@ const initialValues = {
 
 const ContactPage = () => {
     return (
-      <div id="Contact" className="w-full min-h-screen bg-gray-100 flex justify-center items-center px-4 py-20">
+      <div id="Contact" className="w-full min-h-screen flex justify-center items-center px-4 py-20">
         <div className="w-full max-w-3xl bg-white shadow-lg rounded-xl p-8 md:p-12">
           <h1 className="text-center text-4xl font-semibold text-indigo-600 mb-4">
             Contact Me
